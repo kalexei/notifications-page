@@ -1,0 +1,59 @@
+.notification {
+  display: flex;
+  margin: 0.75em 0;
+  padding: 0.5em;
+  border-radius: 15px;
+}
+
+.avatar {
+  margin-right: 1em;
+}
+
+.avatar img {
+  max-width: 50px;
+}
+
+.notification.comment .information {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.notification.unread {
+  background-color: var(--color-lgb1);
+}
+
+.information {
+  position: relative;
+  width: 100%;
+}
+
+.information .username {
+  font-weight: 800;
+}
+
+.information span:not(.username, .content) {
+  color: var(--color-dgblue);
+  margin: 0 0.25em;
+}
+
+.information .image-content {
+  min-width: 80px;
+}
+
+.time {
+  color: var(--color-gblue);
+}
+
+.content .link {
+  color: var(--color-vdblue);
+}
+
+.unread-indicator {
+  width: 10px;
+  height: 10px;
+  background-color: var(--color-red);
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+}
