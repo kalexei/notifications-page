@@ -25,6 +25,11 @@
   color: var(--color-dgblue);
 }
 
+.header button:hover {
+  color: var(--color-blue);
+  cursor: pointer;
+}
+
 .title {
   flex: 1;
   display: flex;

@@ -1,7 +1,7 @@
 .notification {
   display: flex;
   margin: 0.75em 0;
-  padding: 0.5em;
+  padding: 0.5em 0.75em;
   border-radius: 15px;
 }
 
@@ -32,6 +32,11 @@
   font-weight: 800;
 }
 
+.information .username:hover {
+  color: var(--color-blue);
+  cursor: pointer;
+}
+
 .information span:not(.username, .content) {
   color: var(--color-gblue);
   margin: 0 0.25em;
@@ -39,13 +44,28 @@
 
 .information .image-content {
   min-width: 80px;
+  padding: 0.15em;
+  border-radius: 25px;
+  border: 1px solid transparent;
+}
+
+.information .image-content:hover {
+  border: 1px solid var(--color-lgb1);
+  cursor: pointer;
 }
 
 .message-box {
-  padding: 0.5em 0.75em;
+  padding: 0.75em;
   border: 1px solid var(--color-dgblue);
+  border-radius: 5px;
   color: var(--color-dgblue);
   margin-top: 1rem;
+}
+
+.message-box:hover {
+  background-color: var(--color-lgb2);
+  border: 1px solid transparent;
+  cursor: pointer;
 }
 
 .content .link.group {
@@ -55,6 +75,12 @@
 
 .information .content.react-content {
   color: var(--color-dgblue);
+  font-weight: 800;
+}
+
+.information .content.react-content:hover {
+  color: var(--color-blue);
+  cursor: pointer;
 }
 
 .time {
@@ -63,6 +89,10 @@
 
 .content .link {
   color: var(--color-vdblue);
+}
+
+.content .link:hover {
+  cursor: pointer;
 }
 
 .unread-indicator {
