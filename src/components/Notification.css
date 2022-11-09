@@ -33,12 +33,28 @@
 }
 
 .information span:not(.username, .content) {
-  color: var(--color-dgblue);
+  color: var(--color-gblue);
   margin: 0 0.25em;
 }
 
 .information .image-content {
   min-width: 80px;
+}
+
+.message-box {
+  padding: 0.5em 0.75em;
+  border: 1px solid var(--color-dgblue);
+  color: var(--color-dgblue);
+  margin-top: 1rem;
+}
+
+.content .link.group {
+  font-weight: 800;
+  color: var(--color-blue);
+}
+
+.information .content.react-content {
+  color: var(--color-dgblue);
 }
 
 .time {

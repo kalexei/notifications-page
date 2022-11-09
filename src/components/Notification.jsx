@@ -38,7 +38,7 @@ const Notification = ({ user, avatarUrl, type, content, read, time }) => {
           <p>
             <span className="username">{user}</span>{" "}
             <span>reacted to your recent post</span>{" "}
-            <span className="content">{content}</span>
+            <span className="content react-content">{content}</span>
           </p>
         ) : type === "follow" ? (
           <p>
@@ -49,14 +49,14 @@ const Notification = ({ user, avatarUrl, type, content, read, time }) => {
             <span className="username">{user}</span>{" "}
             <span>has joined your group</span>{" "}
             <span className="content">
-              <a className="link">{content}</a>
+              <a className="link group">{content}</a>
             </span>
           </p>
         ) : type === "leave-group" ? (
           <p>
             <span className="username">{user}</span> <span>left the group</span>{" "}
             <span className="content">
-              <a className="link">{content}</a>
+              <a className="link group">{content}</a>
             </span>
           </p>
         ) : type === "message" ? (
@@ -79,7 +79,7 @@ const Notification = ({ user, avatarUrl, type, content, read, time }) => {
         ) : null}
         {!read ? <div className="unread-indicator"></div> : null}
         {type === "message" ? (
-          <p>{content}</p>
+          <p className="message-box">{content}</p>
         ) : type === "comment" ? (
           <img className="image-content" src={content} alt="Picture" />
         ) : (

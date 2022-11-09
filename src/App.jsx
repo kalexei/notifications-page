@@ -115,7 +115,10 @@ function App() {
         </div>
         <div className="notification-list">
           {notifications.map(notification => (
-            <Notification {...notification} />
+            <Notification
+              key={Math.floor(Math.random() * 1000)}
+              {...notification}
+            />
           ))}
         </div>
       </div>
