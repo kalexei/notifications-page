@@ -31,7 +31,7 @@ const Notification = ({ user, avatarUrl, type, content, read, time }) => {
   return (
     <div className={`notification ${type} ${read ? "" : "unread"}`}>
       <div className="avatar">
-        <img src={avatarUrl} />
+        <img alt="user-avatar" src={avatarUrl} />
       </div>
       <div className="information">
         {type === "react" ? (
