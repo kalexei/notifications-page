@@ -73,7 +73,6 @@ const Notification = ({ user, avatarUrl, type, content, read, time }) => {
               <span className="username">{user}</span>{" "}
               <span>commented on your picture</span>
             </p>
-            {/* <img className="image-content" src={content} alt="Picture" /> */}
             <p className="time">{getConvertedTime()} ago</p>
           </div>
         ) : null}
