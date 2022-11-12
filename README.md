@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://github.com/kalexei/notifications-page)
+- [Solution](https://www.frontendmentor.io/solutions/responsive-notifications-page-using-reactjs-SCzBsChORw)
 - [Live Site](https://kalexei-notificationspage.netlify.app/)
 
 ## My process
