@@ -11,8 +11,6 @@ This is a solution to the [Notifications page challenge on Frontend Mentor](http
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -142,13 +140,6 @@ In terms of CSS, the first thing I did and always prefer to do is to do a so-cal
 As you can also see, I used the CSS variables to store all the colors I was given, so I don't have to look up the value every single time I want to use a certain color.
 
 For the Notification component I created a separate CSS file, and for every different type of notification, I had to write a lot of different styles, for basically the same elements, and I had t create a lot of class names, again, not the most optimal thing in the world, but I recognise it and in future if I'm making something I wouldn't repeat the same mistake.
-
-### Continued development
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
